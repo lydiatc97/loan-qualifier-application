@@ -19,3 +19,4 @@ def get_applicant_info():
     home_value = float(home_value)
 
     return credit_score, debt, income, loan_amount, home_value
+    

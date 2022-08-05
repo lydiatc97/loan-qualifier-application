@@ -16,3 +16,4 @@ def save_qualifying_loans(qualifying_loans):
             csvwriter.writerow(row)
     print("Saving qualifying loans to a CSV file...")
     return csvfile
+    
