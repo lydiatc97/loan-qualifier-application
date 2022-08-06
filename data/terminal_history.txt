@@ -1,0 +1,50 @@
+  423  git commit -m "Added the 'save_qualifying_loans' function"
+  424  git push
+  425  git status
+  426  git add qualifier/input
+  427  git add qualifier/output
+  428  git add app.py
+  429  git status
+  430  git commit -m "Moved the load_bank_data, get_applicant_info, find_qualifying_loans, and save_qualifying_loans functions to their own modules, imported them into the main application, and removed redundancies."
+  431  git push
+  432  git status
+  433  git add qualifier/input/applicant_info.py
+  434  git add qualifier/input/bank_data.py
+  435  git add qualifier/output/find_qualifying_loans.py
+  436  git add qualifier/output/save_to_csv.py
+  437  git status
+  438  git commit -m "Added a newline to the end of these files."
+  439  git push
+  440  git status
+  441  git add app.py
+  442  git add qualifier/output/save_to_csv.py
+  443  git status
+  444  git commit -m "Added the option for the user to opt out of saving the CSV file, added the option for the user to input the file path for the CSV file to be saved"
+  445  git push
+  446  history 50 > terminal_history.txt
+  447  git status
+  448  git add qualifier/output/save_to_csv.py
+  449  git status
+  450  git commit -m "Reformatted the save_to_csv module to reduce indentation"
+  451  git push
+  452  git status
+  453  git add qualifier/output/save_to_csv.py
+  454  git status
+  455  git commit -m "Added comments to the save_to_csv module"
+  456  git push
+  457  git status
+  458  git add qualifier/filters/credit_score.py
+  459  git add qualifier/filters/debt_to_income.py
+  460  git add qualifier/filters/loan_to_value.py
+  461  git add qualifier/filters/max_loan_size
+  462  git add qualifier/filters/max_loan_size.py
+  463  git status
+  464  git commit -m "Modified the filter modules by assigning variables to values to increase readability"
+  465  git push
+  466  git status
+  467  git commit loan_qualifier_app.py
+  468  git add loan_qualifier_app.py
+  469  git status
+  470  git commit -m "Added comments to the main application and gave it a more descriptive name"
+  471  git push
+  472  history 50 > terminal_history.txt
